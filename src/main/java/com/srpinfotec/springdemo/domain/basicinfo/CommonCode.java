@@ -20,8 +20,6 @@ import java.util.List;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @ToString(of = {"cmCode", "nameKor"})
 
-@Cacheable
-
 @Entity
 @Table(name = "CM_COD_MNG")
 public class CommonCode extends BaseEntity {
